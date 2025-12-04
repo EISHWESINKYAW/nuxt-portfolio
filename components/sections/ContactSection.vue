@@ -19,14 +19,25 @@
           </div>
           <button type="button" class="inline-flex items-center rounded-md bg-blue-600 px-4 py-2 text-white shadow hover:bg-blue-700">Send</button>
         </form>
-        <div class="space-y-3">
+        <div class="space-y-20">
           <a href="https://eishwesinkyaw.site" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-blue-600 hover:underline">
+            <img src="/images/code-girl.webp" alt="Site logo" class="h-5 w-5 rounded-sm object-contain" />
             <span>Website</span>
           </a>
           <a href="#" class="inline-flex items-center gap-2 text-neutral-700 dark:text-neutral-300 hover:underline">
+            <img
+              class="h-5 w-5"
+              alt="LinkedIn"
+              src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><rect width='20' height='20' rx='3' fill='%230A66C2'/><text x='5' y='15' fill='white' font-family='Arial' font-size='12'>in</text></svg>"
+            />
             <span>LinkedIn</span>
           </a>
           <a href="#" class="inline-flex items-center gap-2 text-neutral-700 dark:text-neutral-300 hover:underline">
+            <img
+              class="h-5 w-5"
+              alt="GitHub"
+              src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><circle cx='10' cy='10' r='10' fill='black'/><text x='3' y='14' fill='white' font-family='Arial' font-size='10'>GH</text></svg>"
+            />
             <span>GitHub</span>
           </a>
         </div>

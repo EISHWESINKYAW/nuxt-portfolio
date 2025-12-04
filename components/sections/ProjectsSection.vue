@@ -4,7 +4,9 @@
       <h2 class="text-2xl sm:text-3xl font-bold">Projects</h2>
       <div ref="grid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <article v-for="p in projects" :key="p.title" class="project-card rounded-xl border border-neutral-200 dark:border-neutral-800 overflow-hidden bg-white dark:bg-neutral-950">
-          <div class="aspect-video bg-neutral-100 dark:bg-neutral-800" />
+          <div class="aspect-video overflow-hidden">
+            <img :src="p.image" :alt="p.title" class="w-full h-full object-cover" loading="lazy" />
+          </div>
           <div class="p-4">
             <h3 class="font-semibold">{{ p.title }}</h3>
             <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-400">{{ p.description }}</p>
@@ -24,14 +26,17 @@ import { onMounted, onBeforeUnmount, ref } from 'vue'
 type Project = {
   title: string
   description: string
+  image: string
   link?: string
   repo?: string
 }
 
 const projects: Project[] = [
-  { title: 'Portfolio', description: 'Personal site and work showcase.', link: 'https://eishwesinkyaw.site' },
-  { title: 'UI Kit', description: 'Reusable Vue components and patterns.' },
-  { title: 'Landing Page', description: 'Marketing site with a11y-first design.' }
+  { title: 'Ecommerce System', description: 'Developed and maintained a full-stack eCommerce platform for home appliances and furniture, combining Laravel (backend API) and Nuxt.js (frontend SPA/SSR)', link: 'https://homemall.com.mm', image:'/images/projects/homemall.png' },
+  { title: 'Myanmar Post', description: 'Designed, developed, and maintained logistics modules including order processing, shipment tracking, inventory control, and warehouse management systems.Built APIs and microservices to integrate the logistics platform with third-party services (e.g., Payment gateway, ERP systems).', link: 'https://myanmarpost.com.mm/', image:'/images/projects/mmpost.png' },
+  { title: 'Logistic Website', description: 'Designed and implemented responsive front-end components using Livewire and Tailwind to ensure an intuitive user experience across desktop and mobile devices.', link: 'https://rgexpress.com.mm', image:'/images/projects/rgexpress.webp' },
+  { title: 'Installment Management System', description: 'Collaborated on the website and management system for selling various household electrical appliances and phones with cash down and installment plans.', link: 'https://rgexpress.com.mm', image:'/images/projects/corporateinstallment.webp'},
+  { title: 'Distribution Management System', description: 'Developed a Distribution Management System integrated with ERP to automate inventory, order processing, and logistics, ensuring real-time data sync and improved operational efficiency.', link: 'https://rgexpress.com.mm', image:'/images/projects/toyologo.png'},
 ]
 
 const grid = ref<HTMLElement | null>(null)
@@ -51,7 +56,7 @@ onMounted(async () => {
     opacity: 1,
     y: 0,
     stagger: 0.15,
-    duration: 0.6,
+    duration: 5,
     ease: 'power2.out',
     scrollTrigger: {
       trigger: grid.value as HTMLElement,

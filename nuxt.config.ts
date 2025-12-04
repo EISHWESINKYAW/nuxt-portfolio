@@ -8,7 +8,8 @@ export default defineNuxtConfig({
         { name: "description", content: "Portfolio and projects — eishwesinkyaw.site" }
       ],
       link: [
-        { rel: "author", href: "https://eishwesinkyaw.site" }
+        { rel: "author", href: "https://eishwesinkyaw.site" },
+        { rel: "icon", type: "image/webp", href: "/images/fav.webp" }
       ]
     }
   },
