@@ -19,9 +19,9 @@
         </div>
         <div class="hidden md:block">
           <img
-            src="/images/code-girl.webp"
+            src="/images/cgirl.png"
             alt="Coding Girl Blog"
-            class="aspect-square rounded-2xl object-cover border border-neutral-200 dark:border-neutral-800"
+            class="aspect-square rounded-2xl object-cover "
           />
         </div>
       </div>
