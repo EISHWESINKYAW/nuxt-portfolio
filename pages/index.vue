@@ -24,11 +24,11 @@ import AboutSection from '@/components/sections/AboutSection.vue'
 import ExperienceSection from '@/components/sections/ExperienceSection.vue'
 import ProjectsSection from '@/components/sections/ProjectsSection.vue'
 import ContactSection from '@/components/sections/ContactSection.vue'
-if (process.client) {
-  const script = document.createElement('script')
-  script.src = 'https://cdn.tailwindcss.com'
-  document.head.appendChild(script)
-}
+useHead({
+  script: [
+    { src: 'https://cdn.tailwindcss.com' }
+  ]
+})
 </script>
 
 <style scoped>
