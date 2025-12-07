@@ -6,7 +6,7 @@
         <li class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4">
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <div>
-              <h3 class="font-semibold text-base sm:text-lg text-blue-600">Full Stack Developer • Za Information Technology Co.Ltd</h3>
+              <h3 class="font-semibold text-base sm:text-lg text-blue-600">Full Stack Web Developer • Za Information Technology Co.Ltd</h3>
               <p class="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400">2023 — Present</p>
             </div>
             <span class="text-[11px] sm:text-xs rounded-full bg-blue-100 text-blue-700 px-2 py-1">Full-time</span>
