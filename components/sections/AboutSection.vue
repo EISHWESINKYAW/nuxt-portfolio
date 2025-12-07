@@ -8,60 +8,33 @@
       Adept at managing cross-functional teams, aligning technical solutions with business goals, and delivering robust systems for high-traffic, high-demand environments. 
       Proficient in technologies including PHP, JavaScript, PostgreSQL, AWS, and DigitalOcean.
       </p>
-      <h2 class="text-lg font-bold pt-5">Skilled in,</h2>
-      <div class="mt-8 grid sm:grid-cols-3 lg:grid-cols-5 gap-6">
-      
-      <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">HTML5</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">JavaScript</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">Bootstrap</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">Vue</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">Nuxt</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">Alpine</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">Tailwind CSS</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">PHP</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">Laravel</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">Failment</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">Livewire</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">MySQL</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">PostgreSQL</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">MongoDB</h3>
-        </div>
-        <div class="rounded-xl border border-neutral-200 dark:border-neutral-800 p-4 text-blue-600">
-          <h3 class="font-semibold">Redis</h3>
-        </div>
+      <h2 class="text-lg font-bold pt-5">Skilled in</h2>
+      <div class="mt-6 grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-6 gap-6 place-items-center">
+        <img v-for="s in skills" :key="s.name" :src="s.logo" :alt="s.name" class="h-14 w-14 object-contain" loading="lazy" />
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
+type Skill = { name: string; logo: string }
+const skills: Skill[] = [
+  { name: 'HTML5', logo: '/images/tech/html.png' },
+  { name: 'JavaScript', logo: '/images/tech/js.png' },
+  { name: 'Bootstrap', logo: '/images/tech/bootstrap.png' },
+  { name: 'Vue', logo: '/images/tech/vue.png' },
+  { name: 'Nuxt', logo: '/images/tech/nuxt.png' },
+  { name: 'Alpine', logo: '/images/tech/alpinejs.png' },
+  { name: 'Tailwind CSS', logo: '/images/tech/tailwindcss.png' },
+  { name: 'PHP', logo: '/images/tech/php.png' },
+  { name: 'Laravel', logo: '/images/tech/laravel.png' },
+  { name: 'Livewire', logo: '/images/tech/livewire.png' },
+  { name: 'MySQL', logo: '/images/tech/mysql.png' },
+  { name: 'PostgreSQL', logo: '/images/tech/postgresql.png' },
+  { name: 'MongoDB', logo: '/images/tech/mongodb.png' },
+  { name: 'Redis', logo: '/images/tech/redis.png' },
+  { name: 'React', logo: '/images/tech/react.png' }
+]
 </script>
 
 <style scoped>
