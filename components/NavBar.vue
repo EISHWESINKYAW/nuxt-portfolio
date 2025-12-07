@@ -3,7 +3,7 @@
     <nav class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-14 items-center justify-between">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-lg">ESSK</span>
+          <a href="#home" class="font-bold text-lg text-blue-600 hover:text-blue-700">ESSK</a>
         </div>
         <button
           class="sm:hidden inline-flex items-center justify-center rounded-md p-2 text-neutral-700 dark:text-neutral-200 hover:bg-neutral-100 dark:hover:bg-neutral-800"
