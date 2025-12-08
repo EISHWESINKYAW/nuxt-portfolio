@@ -32,11 +32,13 @@ type Project = {
 }
 
 const projects: Project[] = [
+  { title: 'Sweety Home', description: 'Designed a distributed Laravel system with SAP integration, leveraging queues, Redis caching, and API-driven architecture to automate inventory and logistics while maintaining real-time sync and high performance under heavy workloads.', link: 'https://rgexpress.com.mm', image:'/images/projects/sh-logo.jpg'},
   { title: 'Ecommerce System', description: 'Developed and maintained a full-stack eCommerce platform for home appliances and furniture, combining Laravel (backend API) and Nuxt.js (frontend SPA/SSR)', link: 'https://homemall.com.mm', image:'/images/projects/homemall.png' },
-  { title: 'Myanmar Post', description: 'Designed, developed, and maintained logistics modules including order processing, shipment tracking, inventory control, and warehouse management systems.Built APIs and microservices to integrate the logistics platform with third-party services (e.g., Payment gateway, ERP systems).', link: 'https://myanmarpost.com.mm/', image:'/images/projects/mmpost.png' },
+  { title: 'Proven Distribution', description: 'Engineered a high-performance, ERP-integrated Distribution Management System that automates inventory, order processing, and logistics while delivering real-time data synchronization, optimized throughput, and consistent performance under high-demand workloads.', link: 'https://rgexpress.com.mm', image:'/images/projects/toyo-logo.jpg'},
+  { title: 'Proven International', description: 'Developed a Distribution Management System integrated with ERP to automate inventory, order processing, and logistics, ensuring real-time data sync and improved operational efficiency.', link: 'https://rgexpress.com.mm', image:'/images/projects/proven-logo.jpg'},
+  { title: 'Myanmar Post', description: 'Designed, developed, and maintained logistics modules including order processing, shipment tracking, inventory control, and warehouse management systems.Built APIs and microservices to integrate the logistics platform with third-party services (e.g., Payment gateway, ERP systems).', link: 'https://myanmarpost.com.mm/', image:'/images/projects/mp-logo.jpg' },
   { title: 'Logistic Website', description: 'Designed and implemented responsive front-end components using Livewire and Tailwind to ensure an intuitive user experience across desktop and mobile devices.', link: 'https://rgexpress.com.mm', image:'/images/projects/rgexpress.webp' },
   { title: 'Installment Management System', description: 'Collaborated on the website and management system for selling various household electrical appliances and phones with cash down and installment plans.', link: 'https://rgexpress.com.mm', image:'/images/projects/corporateinstallment.webp'},
-  { title: 'Distribution Management System', description: 'Developed a Distribution Management System integrated with ERP to automate inventory, order processing, and logistics, ensuring real-time data sync and improved operational efficiency.', link: 'https://rgexpress.com.mm', image:'/images/projects/toyologo.png'},
 ]
 
 const grid = ref<HTMLElement | null>(null)

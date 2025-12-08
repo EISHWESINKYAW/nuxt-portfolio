@@ -14,7 +14,7 @@
           <div class="mt-6 flex gap-3">
             <a href="#projects" class="inline-flex items-center rounded-md bg-blue-600 px-4 py-2 text-white shadow hover:bg-blue-700">View Projects</a>
             <a href="#contact" class="inline-flex items-center rounded-md border border-neutral-300 dark:border-neutral-700 px-4 py-2 text-neutral-800 dark:text-neutral-200 hover:bg-neutral-100 dark:hover:bg-neutral-800">Contact Me</a>
-            <a href="https://eishwesinkyaw.site" target="_blank" rel="noopener" class="inline-flex items-center rounded-md border border-blue-600 px-4 py-2 text-blue-600 hover:bg-blue-50">Website</a>
+            <a href="https://drive.google.com/file/d/1yzTGScZ_tn9Rrvbmc-STpAWPt8uvJLnM/view" target="_blank" rel="noopener" class="inline-flex items-center rounded-md border border-blue-600 px-4 py-2 text-blue-600 hover:bg-blue-50">Download CV</a>
           </div>
         </div>
         <div class="hidden md:block">
