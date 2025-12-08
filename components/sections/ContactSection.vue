@@ -23,18 +23,20 @@
           <a href="https://eishwesinkyaw.site" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-blue-600 hover:underline">
             <img src="/images/tech/website.png" alt="Site logo" class="h-7 w-7 rounded-sm object-contain" />
           </a>
-          <a href="#" class="inline-flex items-center gap-2 text-neutral-700 dark:text-neutral-300 hover:underline">
+          <a href="https://www.linkedin.com/in/ei-shwe-sin-kyaw-20636637b?utm_source=share_via&utm_content=profile&utm_medium=member_ios" class="inline-flex items-center gap-2 text-neutral-700 dark:text-neutral-300 hover:underline" target="_blank" 
+   rel="noopener noreferrer">
             <img
               class="h-7 w-7"
               alt="LinkedIn"
               src="/images/tech/linkin.png"
             />
           </a>
-          <a href="https://github.com/EISHWESINKYAW" class="inline-flex items-center gap-2 text-neutral-700 dark:text-neutral-300 hover:underline">
+          <a href="https://github.com/EISHWESINKYAW" class="inline-flex items-center gap-2 text-neutral-700 dark:text-neutral-300 hover:underline" target="_blank" 
+   rel="noopener noreferrer">
             <img
-              class="h-8 w-8"
+              class="h-7 w-7"
               alt="GitHub"
-              src="/images/tech/github.png"
+              src="/images/tech/git.png"
             />
           </a>
         </div>
