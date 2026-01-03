@@ -21,7 +21,7 @@
             </div>
             <span class="text-[11px] sm:text-xs rounded-full bg-purple-100 text-purple-700 px-2 py-1">Freelance</span>
           </div>
-          <p class="mt-3 text-neutral-700 dark:text-neutral-300 text-sm sm:text-base leading-relaxed break-words">Freelance Web Developer building fast, responsive, and visually engaging websites for a variety of clients.</p>
+          <p class="mt-3 text-neutral-700 dark:text-neutral-300 text-sm sm:text-base leading-relaxed break-words">Freelance Web Developer building fast, responsive, and visually engaging websites for a variety of clients. Worked directly with clients to gather requirements, propose technical solutions, and deliver features on schedule.</p>
         </li>
       </ul>
     </div>

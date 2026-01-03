@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
       <h2 class="text-2xl sm:text-3xl font-bold">About Me</h2>
       <p class="mt-4 text-neutral-700 dark:text-neutral-300 max-w-3xl">
-        Full Stack Web Developer with 3+ years of experience specializing in logistics and distribution management systems. 
+        Full Stack Web Developer with 4+ years of experience specializing in logistics and distribution management systems. 
      Proven expertise in leading the development and deployment of scalable web applications across the full stack, from front-end interfaces to cloud-based back-end infrastructure.
       Adept at managing cross-functional teams, aligning technical solutions with business goals, and delivering robust systems for high-traffic, high-demand environments. 
       Proficient in technologies including PHP, JavaScript, PostgreSQL, AWS, and DigitalOcean.
